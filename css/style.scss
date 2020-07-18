@@ -1,0 +1,461 @@
+body{
+  margin: 0px;
+  font-family: 'Roboto',Arial sans-serif;
+  padding: 0px;
+  #active{
+    background-color: white;
+    color:black;
+  }
+  .container{
+    width: 70%;
+    margin: auto;
+  }
+  header{
+    width: 100%;
+    background-color: black;
+    .top-header{
+      display: grid;
+      grid-template-columns: 1fr 2fr 2fr;
+      justify-content: space-evenly;
+    ul{
+      text-align: center;
+      margin-top: 30px;
+      li{
+        list-style: none;
+        display: inline;
+        padding: 5px;
+        a{
+          text-decoration: none;
+          color: white;
+          font-size: 1.2em;
+          padding: 10px;
+        }
+        a:hover{
+          border-bottom: 2px solid white;
+          background-color: white;
+          color:black;
+        }
+      }
+    }
+    form{
+      margin-top: 17px;
+      text-align: center;
+      .top-input{
+        padding: 10px;
+        border:1px solid black;
+        border-radius: 5px;
+
+      }
+      .sarchBtn2{
+        padding: 10px;
+        border-radius: 5px;
+        border:none;
+        background-color: #3b5998;
+        color:white;
+      }
+    }
+  }
+  }
+  header img{
+    width: 190px;
+    height: 80px;
+  }
+  main{
+    margin-top: -20px;
+    width: 100%;
+  }
+  main .banner{
+    background-image: url("../images/audi.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position:top;
+    //background-attachment: ;
+    .headings{
+      width: 20%;
+      color:black;
+      font-family: 'Bangers', cursive;
+    }
+    h2:nth-child(1) {
+      padding-top: 20px;
+    }
+    h2{
+      font-size: 1.8em;
+    }
+    .searchBar{
+      position: relative; top: 50%; transform: translateY(280%);
+      background-color: white;
+      padding: 10px;
+      border-radius: 10px;
+      h3{
+        border-bottom: 1px solid #3b5998;
+        font-size: 1.3em;
+      }
+      .serachItems{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 1fr;
+        grid-gap:10px;
+        .search{
+          padding: 5px;
+          border:none;
+          border-radius: 10px;
+          border: 2px solid #3b5998;
+        }
+        .sarchBtn{
+          padding: 10px;
+          background-color: #3b5998;
+          border:none;
+          font-weight: bold;
+          font-size: 14px;
+          color:white;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  main{
+    .our{
+      text-align: center;
+      h2{
+        width:25%;
+        margin: 10px auto;
+        border-top: 5px double black;
+        border-bottom: 5px double black;
+      }
+    }
+    .merchandise{
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      padding-top: 30px;
+      .items{
+        text-align: center;
+        box-shadow: 10px 4px 10px 4px #ccc;
+        a{
+          text-decoration: none;
+
+        #id{
+          background-color: #ccc;
+          color:black;
+        }
+        }
+        a:hover{
+          border-bottom:2px solid grey;
+          text-decoration: underline;
+        }
+        img{
+          width: 100%;
+          min-height: 263px;
+          max-height: 263px;
+        }
+      }
+      .items:nth-child(3){
+        border: none;
+      }
+    }
+
+    .new{
+      display: grid;
+      grid-template-columns: 1fr;
+      .items{
+        text-align: left;
+        img{
+          float: left;
+          width: 45%;
+          height: 600px;
+        }
+        div{
+          float: left;
+          width: 45%;
+          padding-left: 20px;
+        }
+      }
+    }
+
+    #container{
+      width: 70%;
+      margin: auto;
+    .about-banner{
+      width: 100%;
+      height: 500px;
+      background-image: url('../images/mostCars.webp');
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+      margin-top:21px;
+      h3{
+        position: relative;
+        top:46%;
+        width: 17%;
+        margin: auto;
+        background-color: black;
+        padding: 10px;
+        color: white;
+      }
+    }
+    .form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select{
+	box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	outline: none;
+}
+
+.form-style-1 select:focus{
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+  }
+  .about-Company{
+    .headline{
+      background-color: black;
+      width: 100%;
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      color:white;
+    }
+    .out-customers{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      .customer{
+        width: 100%;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+        border:2px solid #333;
+        border-radius: 5px;
+        img{
+          width: 100%;
+          height: 280px;
+        }
+      }
+    }
+  }
+  .features{
+    background-color: #e6e6e6;
+    p{
+      float: left;
+    }
+    a{
+      float:right;
+    }
+    .images{
+      clear: both;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap:10px;
+      .inside1{
+        background-image: url("../images/ford1.webp");
+        width: 100%;
+        height: 250px;
+      }
+      .inside2{
+        background-image: url("../images/inside2.jpg");
+        width: 100%;
+        height: 250px;
+      }
+      .inside3{
+        background-image: url("../images/inside3.jpg");
+        width: 100%;
+        height: 250px;
+      }
+      .inside4{
+        background-image: url("../images/inside4.jpg");
+        width: 100%;
+        height: 250px;
+      }
+      .inside1, .inside2, .inside3, .inside4{
+        background-size: cover;
+        background-position: center;
+        b{
+          background-color: #333;
+          opacity: 0.7;
+          width: 100%;
+          padding: 5px 0px 0px 5px;
+          color:white;
+        }
+      }
+    }
+  }
+}
+  footer{
+    background-color: black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color:white;
+    .main-footer{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap:5px;
+      .footer-links li, .follow-links li{
+        list-style-type: none;
+        padding: 10px;
+        margin: 0px;
+        a{
+          color: white;
+          text-decoration: none;
+          padding: 10px;
+          border-radius: 5px;
+        }
+        img{
+          background-color: white;
+
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  body{
+    header{
+      .top-header{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-bottom: 10px;
+      text-align: center;
+      img{
+        padding-left: 170px;
+      }
+    }
+    }
+    main .banner{
+      .searchBar{
+        display: none;
+      }
+    }
+    main {
+      .about-Company{
+      .out-customers{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+     }
+     .merchandise{
+       display: grid;
+       grid-template-columns: 1fr;
+     }
+     .new{
+       .items{
+         border-top:4px solid grey;
+         border-bottom:4px solid grey;
+         display: grid;
+         grid-template-columns: 1fr;
+         img{
+           width: 100%;
+         }
+         div{
+           padding: 0px;
+           width: 100%;
+         }
+       }
+     }
+     }
+     footer{
+       .main-footer{
+         display: grid;
+         grid-template-columns: 1fr;
+       }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    header{
+      .top-header{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-bottom: 10px;
+      text-align: center;
+      nav{
+        ul{
+          li{
+            display: block;
+            padding: 20px;
+          }
+        }
+      }
+      img{
+        padding-left: 150px;
+      }
+    }
+    }
+    main .banner{
+      .searchBar{
+        display: none;
+      }
+    }
+    main {
+      .about-Company{
+      .out-customers{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+     }
+     .merchandise{
+       display: grid;
+       grid-template-columns: 1fr;
+     }
+    }
+  }
+}
